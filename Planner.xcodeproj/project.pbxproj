@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PlannerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PlannerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		830C5BDF100AC3530038BA58 /* PLCRootTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830C5BDE100AC3530038BA58 /* PLCRootTextFieldCell.xib */; };
+		8357C0E31013BEB500746D93 /* PLVAssignmentTextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8357C0E21013BEB500746D93 /* PLVAssignmentTextViewCell.xib */; };
+		8357C0E71013C00300746D93 /* PLVAssignmentSliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8357C0E61013C00300746D93 /* PLVAssignmentSliderCell.xib */; };
+		8357C1181013C66100746D93 /* PLVCAssignmentRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8357C1171013C66100746D93 /* PLVCAssignmentRoot.m */; };
+		835FE850100E3F6C0040B28F /* PLCRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 835FE84E100E3F6C0040B28F /* PLCRoot.m */; };
+		8368D59010079ACB0060E9F5 /* PLCDays.m in Sources */ = {isa = PBXBuildFile; fileRef = 8368D58F10079ACB0060E9F5 /* PLCDays.m */; };
+		8369FA25100D9CE2001B016C /* PLCDaysSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8369FA24100D9CE2001B016C /* PLCDaysSwitchCell.xib */; };
+		8371C2E31005002C005A85AB /* PLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8371C2E21005002C005A85AB /* PLFileManager.m */; };
+		8371C35810050971005A85AB /* PLClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8371C35710050971005A85AB /* PLClass.m */; };
+		8371C38B10050A3A005A85AB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8371C38A10050A3A005A85AB /* Icon.png */; };
+		8375B4B11012FCC6004BF797 /* PLAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8375B4B01012FCC6004BF797 /* PLAssignment.m */; };
+		838E1556100C2C5A0067E7D5 /* PLCTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 838E1554100C2C5A0067E7D5 /* PLCTime.m */; };
+		838E1557100C2C5A0067E7D5 /* PLCTime.xib in Resources */ = {isa = PBXBuildFile; fileRef = 838E1555100C2C5A0067E7D5 /* PLCTime.xib */; };
+		838E15DE100C3CD70067E7D5 /* PLCAdditionalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 838E15DC100C3CD70067E7D5 /* PLCAdditionalInfo.m */; };
+		838E15DF100C3CD70067E7D5 /* PLCAdditionalInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 838E15DD100C3CD70067E7D5 /* PLCAdditionalInfo.xib */; };
+		83948AF61012F07E000B3059 /* PLVAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 83948AF51012F07E000B3059 /* PLVAssignment.m */; };
+		83A3CAB81010E5D800239B93 /* PLVRootTextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A3CAB71010E5D800239B93 /* PLVRootTextViewCell.xib */; };
+		83A3CADB1010E87C00239B93 /* PLVAssignments.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A3CADA1010E87C00239B93 /* PLVAssignments.m */; };
+		83DEB7A8100FC11600548578 /* PLVRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEB7A7100FC11600548578 /* PLVRoot.m */; };
+		83DEB7C1100FC31E00548578 /* PLVRootClassInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83DEB7C0100FC31E00548578 /* PLVRootClassInfoCell.xib */; };
+		B512A6C011534F5600BE472C /* AllAssignmentsRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = B512A6BF11534F5600BE472C /* AllAssignmentsRoot.m */; };
+		B51D8120108BC4F500F89974 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51D811F108BC4F500F89974 /* QuartzCore.framework */; };
+		B5293F95108C65D80036CD9D /* PLSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5293F94108C65D80036CD9D /* PLSlideView.m */; };
+		B541FF3A10800E08008F4235 /* ToDo.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B541FF3910800E08008F4235 /* ToDo.rtf */; };
+		B58D1F32116828B50011671B /* AllAssignmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B58D1F31116828B50011671B /* AllAssignmentCell.m */; };
+		B5A30188114B1EB9007F9957 /* PLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A30187114B1EB9007F9957 /* PLWindow.m */; };
+		B5B0F3F3108D938700EED279 /* PLPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B0F3F2108D938700EED279 /* PLPickerView.xib */; };
+		B5B0F3F5108D939500EED279 /* PLDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B0F3F4108D939500EED279 /* PLDatePicker.xib */; };
+		B5E0546B104B9F9100C1CDD7 /* PLVCAssignmentRootTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E0546A104B9F9100C1CDD7 /* PLVCAssignmentRootTextFieldCell.xib */; };
+		B5E054BC104BA49200C1CDD7 /* PLVCAssignmentRootTextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E054BB104BA49200C1CDD7 /* PLVCAssignmentRootTextViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PlannerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlannerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PlannerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlannerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* Planner_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planner_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		830C5BDE100AC3530038BA58 /* PLCRootTextFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PLCRootTextFieldCell.xib; sourceTree = "<group>"; };
+		8357C0E21013BEB500746D93 /* PLVAssignmentTextViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PLVAssignmentTextViewCell.xib; sourceTree = "<group>"; };
+		8357C0E61013C00300746D93 /* PLVAssignmentSliderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PLVAssignmentSliderCell.xib; sourceTree = "<group>"; };
+		8357C1161013C66100746D93 /* PLVCAssignmentRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVCAssignmentRoot.h; sourceTree = "<group>"; };
+		8357C1171013C66100746D93 /* PLVCAssignmentRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVCAssignmentRoot.m; sourceTree = "<group>"; };
+		835FE84D100E3F6C0040B28F /* PLCRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCRoot.h; sourceTree = "<group>"; };
+		835FE84E100E3F6C0040B28F /* PLCRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCRoot.m; sourceTree = "<group>"; };
+		8368D58E10079ACB0060E9F5 /* PLCDays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCDays.h; sourceTree = "<group>"; };
+		8368D58F10079ACB0060E9F5 /* PLCDays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCDays.m; sourceTree = "<group>"; };
+		8369FA24100D9CE2001B016C /* PLCDaysSwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PLCDaysSwitchCell.xib; sourceTree = "<group>"; };
+		8371C2BB1004F7DA005A85AB /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8371C2E11005002C005A85AB /* PLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLFileManager.h; sourceTree = "<group>"; };
+		8371C2E21005002C005A85AB /* PLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFileManager.m; sourceTree = "<group>"; };
+		8371C35610050967005A85AB /* PLClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLClass.h; sourceTree = "<group>"; };
+		8371C35710050971005A85AB /* PLClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLClass.m; sourceTree = "<group>"; };
+		8371C38A10050A3A005A85AB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8375B4AF1012FCC6004BF797 /* PLAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLAssignment.h; sourceTree = "<group>"; };
+		8375B4B01012FCC6004BF797 /* PLAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLAssignment.m; sourceTree = "<group>"; };
+		838E1553100C2C5A0067E7D5 /* PLCTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCTime.h; sourceTree = "<group>"; };
+		838E1554100C2C5A0067E7D5 /* PLCTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCTime.m; sourceTree = "<group>"; };
+		838E1555100C2C5A0067E7D5 /* PLCTime.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PLCTime.xib; sourceTree = "<group>"; };
+		838E15DB100C3CD70067E7D5 /* PLCAdditionalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCAdditionalInfo.h; sourceTree = "<group>"; };
+		838E15DC100C3CD70067E7D5 /* PLCAdditionalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCAdditionalInfo.m; sourceTree = "<group>"; };
+		838E15DD100C3CD70067E7D5 /* PLCAdditionalInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PLCAdditionalInfo.xib; sourceTree = "<group>"; };
+		83948AF41012F07E000B3059 /* PLVAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVAssignment.h; sourceTree = "<group>"; };
+		83948AF51012F07E000B3059 /* PLVAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVAssignment.m; sourceTree = "<group>"; };
+		83A3CAB71010E5D800239B93 /* PLVRootTextViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PLVRootTextViewCell.xib; sourceTree = "<group>"; };
+		83A3CAD91010E87C00239B93 /* PLVAssignments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVAssignments.h; sourceTree = "<group>"; };
+		83A3CADA1010E87C00239B93 /* PLVAssignments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVAssignments.m; sourceTree = "<group>"; };
+		83DEB7A6100FC11600548578 /* PLVRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVRoot.h; sourceTree = "<group>"; };
+		83DEB7A7100FC11600548578 /* PLVRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVRoot.m; sourceTree = "<group>"; };
+		83DEB7AB100FC15100548578 /* PLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLKit.h; sourceTree = "<group>"; };
+		83DEB7C0100FC31E00548578 /* PLVRootClassInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PLVRootClassInfoCell.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Planner-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Planner-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B512A6BE11534F5600BE472C /* AllAssignmentsRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllAssignmentsRoot.h; sourceTree = "<group>"; };
+		B512A6BF11534F5600BE472C /* AllAssignmentsRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllAssignmentsRoot.m; sourceTree = "<group>"; };
+		B51D811F108BC4F500F89974 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		B5293F93108C65D80036CD9D /* PLSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSlideView.h; sourceTree = "<group>"; };
+		B5293F94108C65D80036CD9D /* PLSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSlideView.m; sourceTree = "<group>"; };
+		B541FF3910800E08008F4235 /* ToDo.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ToDo.rtf; sourceTree = "<group>"; };
+		B58D1F30116828B50011671B /* AllAssignmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllAssignmentCell.h; sourceTree = "<group>"; };
+		B58D1F31116828B50011671B /* AllAssignmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllAssignmentCell.m; sourceTree = "<group>"; };
+		B5A30186114B1EB9007F9957 /* PLWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLWindow.h; sourceTree = "<group>"; };
+		B5A30187114B1EB9007F9957 /* PLWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLWindow.m; sourceTree = "<group>"; };
+		B5B0F3F2108D938700EED279 /* PLPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PLPickerView.xib; sourceTree = "<group>"; };
+		B5B0F3F4108D939500EED279 /* PLDatePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PLDatePicker.xib; sourceTree = "<group>"; };
+		B5E0546A104B9F9100C1CDD7 /* PLVCAssignmentRootTextFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PLVCAssignmentRootTextFieldCell.xib; sourceTree = "<group>"; };
+		B5E054BB104BA49200C1CDD7 /* PLVCAssignmentRootTextViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PLVCAssignmentRootTextViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				B51D8120108BC4F500F89974 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Planner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				8371C38A10050A3A005A85AB /* Icon.png */,
+				831F7F3C1013B61F002F78F0 /* Source */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				B541FF3910800E08008F4235 /* ToDo.rtf */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* Planner_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Planner-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				B51D811F108BC4F500F89974 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		830C5B9D100ABEA70038BA58 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8369FA24100D9CE2001B016C /* PLCDaysSwitchCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		831F7F3C1013B61F002F78F0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B51D8101108BC21400F89974 /* Extra Views */,
+				8371C2B11004F759005A85AB /* Application Files */,
+				8371C29C1004F6AC005A85AB /* View Controllers */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		833689E9100AB39E00E38708 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				830C5BDE100AC3530038BA58 /* PLCRootTextFieldCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		8357C10F1013C5D100746D93 /* Assignment Creator */ = {
+			isa = PBXGroup;
+			children = (
+				8357C1191013C72500746D93 /* Root */,
+			);
+			path = "Assignment Creator";
+			sourceTree = "<group>";
+		};
+		8357C1191013C72500746D93 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				8357C1161013C66100746D93 /* PLVCAssignmentRoot.h */,
+				8357C1171013C66100746D93 /* PLVCAssignmentRoot.m */,
+				B5E05466104B9F0D00C1CDD7 /* Custom Cells */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		8371C29C1004F6AC005A85AB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B512A6BD11534F1E00BE472C /* All Assignments */,
+				8371C2B21004F76F005A85AB /* Root View */,
+				8371C29E1004F6AC005A85AB /* Class Creator */,
+				8371C29D1004F6AC005A85AB /* Class Viewer */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8371C29D1004F6AC005A85AB /* Class Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				83DEB7AA100FC12500548578 /* Root */,
+				83A3CAD81010E85C00239B93 /* Assignments */,
+			);
+			path = "Class Viewer";
+			sourceTree = "<group>";
+		};
+		8371C29E1004F6AC005A85AB /* Class Creator */ = {
+			isa = PBXGroup;
+			children = (
+				8371C29F1004F6AC005A85AB /* Root */,
+				8371C2A21004F6AC005A85AB /* Time */,
+				8371C2A31004F6AC005A85AB /* Days */,
+				8371C2A41004F6AC005A85AB /* Additional Info */,
+			);
+			path = "Class Creator";
+			sourceTree = "<group>";
+		};
+		8371C29F1004F6AC005A85AB /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				835FE84D100E3F6C0040B28F /* PLCRoot.h */,
+				835FE84E100E3F6C0040B28F /* PLCRoot.m */,
+				833689E9100AB39E00E38708 /* Custom Cells */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		8371C2A21004F6AC005A85AB /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				838E1553100C2C5A0067E7D5 /* PLCTime.h */,
+				838E1554100C2C5A0067E7D5 /* PLCTime.m */,
+				838E1555100C2C5A0067E7D5 /* PLCTime.xib */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		8371C2A31004F6AC005A85AB /* Days */ = {
+			isa = PBXGroup;
+			children = (
+				8368D58E10079ACB0060E9F5 /* PLCDays.h */,
+				8368D58F10079ACB0060E9F5 /* PLCDays.m */,
+				830C5B9D100ABEA70038BA58 /* Custom Cells */,
+			);
+			path = Days;
+			sourceTree = "<group>";
+		};
+		8371C2A41004F6AC005A85AB /* Additional Info */ = {
+			isa = PBXGroup;
+			children = (
+				838E15DB100C3CD70067E7D5 /* PLCAdditionalInfo.h */,
+				838E15DC100C3CD70067E7D5 /* PLCAdditionalInfo.m */,
+				838E15DD100C3CD70067E7D5 /* PLCAdditionalInfo.xib */,
+			);
+			path = "Additional Info";
+			sourceTree = "<group>";
+		};
+		8371C2B11004F759005A85AB /* Application Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5B0F3F0108D934C00EED279 /* Slide Views */,
+				1D3623240D0F684500981E51 /* PlannerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PlannerAppDelegate.m */,
+				83DEB7AB100FC15100548578 /* PLKit.h */,
+				83DEB7B7100FC23A00548578 /* PLKit */,
+			);
+			path = "Application Files";
+			sourceTree = "<group>";
+		};
+		8371C2B21004F76F005A85AB /* Root View */ = {
+			isa = PBXGroup;
+			children = (
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				83A3CAD61010E83D00239B93 /* Custom Cells */,
+			);
+			path = "Root View";
+			sourceTree = "<group>";
+		};
+		8375B4B9101300FC004BF797 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8357C0E61013C00300746D93 /* PLVAssignmentSliderCell.xib */,
+				8357C0E21013BEB500746D93 /* PLVAssignmentTextViewCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		83948AEB1012EF91000B3059 /* All Assignments */ = {
+			isa = PBXGroup;
+			children = (
+				83A3CAD91010E87C00239B93 /* PLVAssignments.h */,
+				83A3CADA1010E87C00239B93 /* PLVAssignments.m */,
+			);
+			path = "All Assignments";
+			sourceTree = "<group>";
+		};
+		83948AEC1012EFA1000B3059 /* Single Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				83948AF41012F07E000B3059 /* PLVAssignment.h */,
+				83948AF51012F07E000B3059 /* PLVAssignment.m */,
+				8375B4B9101300FC004BF797 /* Custom Cells */,
+			);
+			path = "Single Assignment";
+			sourceTree = "<group>";
+		};
+		83A3CAD61010E83D00239B93 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		83A3CAD81010E85C00239B93 /* Assignments */ = {
+			isa = PBXGroup;
+			children = (
+				83948AEB1012EF91000B3059 /* All Assignments */,
+				83948AEC1012EFA1000B3059 /* Single Assignment */,
+				8357C10F1013C5D100746D93 /* Assignment Creator */,
+			);
+			path = Assignments;
+			sourceTree = "<group>";
+		};
+		83DEB7AA100FC12500548578 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				83DEB7A6100FC11600548578 /* PLVRoot.h */,
+				83DEB7A7100FC11600548578 /* PLVRoot.m */,
+				83DEB7BF100FC30B00548578 /* Custom Cells */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		83DEB7B7100FC23A00548578 /* PLKit */ = {
+			isa = PBXGroup;
+			children = (
+				8371C2BB1004F7DA005A85AB /* Constants.h */,
+				8371C35610050967005A85AB /* PLClass.h */,
+				8371C35710050971005A85AB /* PLClass.m */,
+				8375B4AF1012FCC6004BF797 /* PLAssignment.h */,
+				8375B4B01012FCC6004BF797 /* PLAssignment.m */,
+				8371C2E11005002C005A85AB /* PLFileManager.h */,
+				8371C2E21005002C005A85AB /* PLFileManager.m */,
+				B5293F93108C65D80036CD9D /* PLSlideView.h */,
+				B5293F94108C65D80036CD9D /* PLSlideView.m */,
+			);
+			path = PLKit;
+			sourceTree = "<group>";
+		};
+		83DEB7BF100FC30B00548578 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				83DEB7C0100FC31E00548578 /* PLVRootClassInfoCell.xib */,
+				83A3CAB71010E5D800239B93 /* PLVRootTextViewCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		B512A6BD11534F1E00BE472C /* All Assignments */ = {
+			isa = PBXGroup;
+			children = (
+				B58D1F2F116828880011671B /* Custom Cells */,
+				B512A6BE11534F5600BE472C /* AllAssignmentsRoot.h */,
+				B512A6BF11534F5600BE472C /* AllAssignmentsRoot.m */,
+			);
+			path = "All Assignments";
+			sourceTree = "<group>";
+		};
+		B51D8101108BC21400F89974 /* Extra Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5A30186114B1EB9007F9957 /* PLWindow.h */,
+				B5A30187114B1EB9007F9957 /* PLWindow.m */,
+			);
+			name = "Extra Views";
+			sourceTree = "<group>";
+		};
+		B58D1F2F116828880011671B /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B58D1F30116828B50011671B /* AllAssignmentCell.h */,
+				B58D1F31116828B50011671B /* AllAssignmentCell.m */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		B5B0F3F0108D934C00EED279 /* Slide Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5B0F3F2108D938700EED279 /* PLPickerView.xib */,
+				B5B0F3F4108D939500EED279 /* PLDatePicker.xib */,
+			);
+			path = "Slide Views";
+			sourceTree = "<group>";
+		};
+		B5E05466104B9F0D00C1CDD7 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B5E0546A104B9F9100C1CDD7 /* PLVCAssignmentRootTextFieldCell.xib */,
+				B5E054BB104BA49200C1CDD7 /* PLVCAssignmentRootTextViewCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Planner" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Planner;
+			productName = Planner;
+			productReference = 1D6058910D05DD3D006BFB54 /* Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Planner" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Planner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				8371C38B10050A3A005A85AB /* Icon.png in Resources */,
+				830C5BDF100AC3530038BA58 /* PLCRootTextFieldCell.xib in Resources */,
+				838E1557100C2C5A0067E7D5 /* PLCTime.xib in Resources */,
+				838E15DF100C3CD70067E7D5 /* PLCAdditionalInfo.xib in Resources */,
+				8369FA25100D9CE2001B016C /* PLCDaysSwitchCell.xib in Resources */,
+				83DEB7C1100FC31E00548578 /* PLVRootClassInfoCell.xib in Resources */,
+				83A3CAB81010E5D800239B93 /* PLVRootTextViewCell.xib in Resources */,
+				8357C0E31013BEB500746D93 /* PLVAssignmentTextViewCell.xib in Resources */,
+				8357C0E71013C00300746D93 /* PLVAssignmentSliderCell.xib in Resources */,
+				B5E0546B104B9F9100C1CDD7 /* PLVCAssignmentRootTextFieldCell.xib in Resources */,
+				B5E054BC104BA49200C1CDD7 /* PLVCAssignmentRootTextViewCell.xib in Resources */,
+				B541FF3A10800E08008F4235 /* ToDo.rtf in Resources */,
+				B5B0F3F3108D938700EED279 /* PLPickerView.xib in Resources */,
+				B5B0F3F5108D939500EED279 /* PLDatePicker.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PlannerAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				8371C2E31005002C005A85AB /* PLFileManager.m in Sources */,
+				8371C35810050971005A85AB /* PLClass.m in Sources */,
+				8368D59010079ACB0060E9F5 /* PLCDays.m in Sources */,
+				838E1556100C2C5A0067E7D5 /* PLCTime.m in Sources */,
+				838E15DE100C3CD70067E7D5 /* PLCAdditionalInfo.m in Sources */,
+				835FE850100E3F6C0040B28F /* PLCRoot.m in Sources */,
+				83DEB7A8100FC11600548578 /* PLVRoot.m in Sources */,
+				83A3CADB1010E87C00239B93 /* PLVAssignments.m in Sources */,
+				83948AF61012F07E000B3059 /* PLVAssignment.m in Sources */,
+				8375B4B11012FCC6004BF797 /* PLAssignment.m in Sources */,
+				8357C1181013C66100746D93 /* PLVCAssignmentRoot.m in Sources */,
+				B5293F95108C65D80036CD9D /* PLSlideView.m in Sources */,
+				B5A30188114B1EB9007F9957 /* PLWindow.m in Sources */,
+				B512A6C011534F5600BE472C /* AllAssignmentsRoot.m in Sources */,
+				B58D1F32116828B50011671B /* AllAssignmentCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Planner_Prefix.pch;
+				INFOPLIST_FILE = "Planner-Info.plist";
+				OTHER_CFLAGS = "-DDEBUG";
+				PRODUCT_NAME = Planner;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kevin Ferguson";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Planner_Prefix.pch;
+				INFOPLIST_FILE = "Planner-Info.plist";
+				PRODUCT_NAME = Planner;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "23DF1349-0BB7-4236-A97B-D30BB0BCF67A";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

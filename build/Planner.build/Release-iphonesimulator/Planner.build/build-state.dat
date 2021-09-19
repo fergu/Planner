@@ -1,0 +1,685 @@
+TPlanner
+v7
+r1
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
+c000000004A42E5F300000000000000EE
+t1245898227
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A0BAA26000000000026EE80
+t1242278438
+s2551424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A0BAB370000000000261F90
+t1242278711
+s2498448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAB250000000000001355
+t1242278693
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004A0BADD7000000000000007D
+t1242279383
+s125
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBB000000000000075E
+t1242349243
+s1886
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A0CBF5F0000000001434100
+t1242349407
+s21184768
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/Availability.h
+c000000004A0BAC5D00000000000019D8
+t1242279005
+s6616
+
+N/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004B73BC540000000000CF0BF0
+t1265876052
+s13569008
+
+N/Users/kjfergus/Desktop/Planner/Icon.png
+c00000000495DBC1C00000000000015C6
+t1230879772
+s5574
+
+N/Users/kjfergus/Desktop/Planner/MainWindow.xib
+c000000004B9AE7970000000000005F4D
+t1268443031
+s24397
+
+N/Users/kjfergus/Desktop/Planner/Planner_Prefix.pch
+c000000004A54BEC40000000000000140
+t1247067844
+s320
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit.h
+c000000004ADCF364000000000000017A
+t1255994212
+s378
+i"Constants.h"
+i"PLClass.h"
+i"PLAssignment.h"
+i"PLFileManager.h"
+i"PLSlideView.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/Constants.h
+c000000004BD2775B00000000000004FA
+t1272084315
+s1274
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.h
+c000000004BB6D135000000000000054C
+t1270272309
+s1356
+i<Foundation/Foundation.h>
+i"PLClass.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.m
+c000000004BD2711A000000000000144D
+t1272082714
+s5197
+i"Constants.h"
+i"PLAssignment.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.h
+c000000004B9AE95400000000000007FC
+t1268443476
+s2044
+i<Foundation/Foundation.h>
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.m
+c000000004BD2711A000000000000167C
+t1272082714
+s5756
+i"Constants.h"
+i"PLClass.h"
+i"PLAssignment.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLFileManager.h
+c000000004A54D0A00000000000000262
+t1247072416
+s610
+i<Foundation/Foundation.h>
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLFileManager.m
+c000000004A555CD2000000000000063E
+t1247108306
+s1598
+i"Constants.h"
+i"PLFileManager.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLSlideView.h
+c000000004B3983AA0000000000000242
+t1262060458
+s578
+i<Foundation/Foundation.h>
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLSlideView.m
+c000000004B998F600000000000000F0F
+t1268354912
+s3855
+i"Constants.h"
+i"PLSlideView.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PlannerAppDelegate.h
+c000000004BB7FB0200000000000001EB
+t1270348546
+s491
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PlannerAppDelegate.m
+c000000004BDF84F50000000000000957
+t1272939765
+s2391
+i"Constants.h"
+i"PlannerAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLDatePicker.xib
+c000000004ADD706C00000000000052D6
+t1256026220
+s21206
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLPickerView.xib
+c000000004B9ADDAC0000000000004D64
+t1268440492
+s19812
+
+N/Users/kjfergus/Desktop/Planner/Source/PLWindow.h
+c000000004B9AE79100000000000000D3
+t1268443025
+s211
+i<Foundation/Foundation.h>
+
+N/Users/kjfergus/Desktop/Planner/Source/PLWindow.m
+c000000004B9AE77800000000000001CA
+t1268443000
+s458
+i"PLWindow.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentCell.h
+c000000004BB7F2D1000000000000018C
+t1270346449
+s396
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentCell.m
+c000000004BB7FF5E00000000000002E0
+t1270349662
+s736
+i"AllAssignmentCell.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentsRoot.h
+c000000004BB7F2D10000000000000148
+t1270346449
+s328
+i<UIKit/UIKit.h>
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentsRoot.m
+c000000004BD274380000000000001DFD
+t1272083512
+s7677
+i"Constants.h"
+i"AllAssignmentsRoot.h"
+i"AllAssignmentCell.h"
+i"PLVAssignment.h"
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.h
+c000000004A5F8AFC0000000000000138
+t1247775484
+s312
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.m
+c000000004BD27339000000000000057B
+t1272083257
+s1403
+i"PLCAdditionalInfo.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.xib
+c000000004A5C1578000000000000195D
+t1247548792
+s6493
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/Custom Cells/PLCDaysSwitchCell.xib
+c000000004A5DF6880000000000002710
+t1247671944
+s10000
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/PLCDays.h
+c000000004A5F8AFC0000000000000230
+t1247775484
+s560
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/PLCDays.m
+c000000004BD273390000000000000CBD
+t1272083257
+s3261
+i"Constants.h"
+i"PLCDays.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/Custom Cells/PLCRootTextFieldCell.xib
+c000000004A5A92460000000000002942
+t1247449670
+s10562
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/PLCRoot.h
+c000000004A5F8AFC000000000000024A
+t1247775484
+s586
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/PLCRoot.m
+c000000004BD271D30000000000002789
+t1272082899
+s10121
+i"Constants.h"
+i"PLCRoot.h"
+i"PLCTime.h"
+i"PLCDays.h"
+i"PLCAdditionalInfo.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.h
+c000000004A5F8AFC00000000000001C7
+t1247775484
+s455
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.m
+c000000004BD273390000000000000F09
+t1272083257
+s3849
+i"Constants.h"
+i"PLCTime.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.xib
+c000000004A6003020000000000002FB1
+t1247806210
+s12209
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/All Assignments/PLVAssignments.h
+c000000004B39BB120000000000000177
+t1262074642
+s375
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/All Assignments/PLVAssignments.m
+c000000004BD273390000000000002237
+t1272083257
+s8759
+i"Constants.h"
+i"PLVAssignments.h"
+i"PLVAssignment.h"
+i"PLVCAssignmentRoot.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextFieldCell.xib
+c000000004AD43ECC00000000000056DA
+t1255423692
+s22234
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextViewCell.xib
+c000000004ACFD0B00000000000004DE0
+t1255133360
+s19936
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/PLVCAssignmentRoot.h
+c000000004B3983AA00000000000002F5
+t1262060458
+s757
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/PLVCAssignmentRoot.m
+c000000004BB82CA60000000000002972
+t1270361254
+s10610
+i"PLVCAssignmentRoot.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentSliderCell.xib
+c000000004B3A8CD4000000000000557E
+t1262128340
+s21886
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentTextViewCell.xib
+c000000004BB7F5CD00000000000050F5
+t1270347213
+s20725
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/PLVAssignment.h
+c000000004A6389340000000000000257
+t1248037172
+s599
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/PLVAssignment.m
+c000000004BD2751F0000000000001629
+t1272083743
+s5673
+i"PLVAssignment.h"
+i"PLVCAssignmentRoot.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootClassInfoCell.xib
+c000000004A62B7E400000000000037EA
+t1247983588
+s14314
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootTextViewCell.xib
+c000000004A60B09C000000000000227A
+t1247850652
+s8826
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/PLVRoot.h
+c000000004A62B33C00000000000001FB
+t1247982396
+s507
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/PLVRoot.m
+c000000004B9ADD4300000000000015C4
+t1268440387
+s5572
+i"Constants.h"
+i"PLVRoot.h"
+i"PLVAssignments.h"
+i"PLCRoot.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.h
+c000000004A54BEC400000000000000D0
+t1247067844
+s208
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.m
+c000000004BC4B0D0000000000000114B
+t1271181520
+s4427
+i"RootViewController.h"
+i"AllAssignmentsRoot.h"
+i"PLCRoot.h"
+i"PLVRoot.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.xib
+c000000004A54BEC40000000000001F59
+t1247067844
+s8025
+
+N/Users/kjfergus/Desktop/Planner/ToDo.rtf
+c000000004AD43E9600000000000001B5
+t1255423638
+s437
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/AllAssignmentCell.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/AllAssignmentsRoot.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLAssignment.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLCAdditionalInfo.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLCDays.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLCRoot.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLCTime.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLClass.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLFileManager.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLSlideView.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLVAssignment.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLVAssignments.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLVCAssignmentRoot.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLVRoot.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLWindow.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/Planner.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PlannerAppDelegate.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/RootViewController.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app.dSYM
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/Icon.png
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/Info.plist
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/MainWindow.nib
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/PLCAdditionalInfo.nib
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/PLCDaysSwitchCell.nib
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/PLCRootTextFieldCell.nib
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/PLCTime.nib
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/PLDatePicker.nib
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/PLPickerView.nib
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/PLVAssignmentSliderCell.nib
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/PLVAssignmentTextViewCell.nib
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/PLVCAssignmentRootTextFieldCell.nib
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/PLVCAssignmentRootTextViewCell.nib
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/PLVRootClassInfoCell.nib
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/PLVRootTextViewCell.nib
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/PkgInfo
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/Planner
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/RootViewController.nib
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/ToDo.rtf
+t2
+s0
+
+N/Users/kjfergus/Desktop/Planner/main.m
+c000000004BD277020000000000000340
+t1272084226
+s832
+i<UIKit/UIKit.h>
+
+N/var/folders/ur/urOR8wHjGDuXkrbrbvdTWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-ayfgwewxcqeqtufvoalqyaveskbu/Planner_Prefix.pch.gch
+t2
+s0
+
+NPlanner-Info.plist
+c000000004BD286900000000000000379
+t1272088208
+s889
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/AllAssignmentCell.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/AllAssignmentsRoot.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentsRoot.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLAssignment.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLCAdditionalInfo.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLCDays.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/PLCDays.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLCRoot.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/PLCRoot.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLCTime.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLClass.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLFileManager.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLFileManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLSlideView.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLSlideView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLVAssignment.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/PLVAssignment.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLVAssignments.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/All Assignments/PLVAssignments.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLVCAssignmentRoot.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/PLVCAssignmentRoot.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLVRoot.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/PLVRoot.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PLWindow.o /Users/kjfergus/Desktop/Planner/Source/PLWindow.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/PlannerAppDelegate.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PlannerAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/RootViewController.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Planner.build/Release-iphonesimulator/Planner.build/Objects-normal/i386/main.o /Users/kjfergus/Desktop/Planner/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLDatePicker.xib"
+r0
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLPickerView.xib"
+r0
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.xib"
+r0
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/Custom Cells/PLCDaysSwitchCell.xib"
+r0
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/Custom Cells/PLCRootTextFieldCell.xib"
+r0
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.xib"
+r0
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextFieldCell.xib"
+r0
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextViewCell.xib"
+r0
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentSliderCell.xib"
+r0
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentTextViewCell.xib"
+r0
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootClassInfoCell.xib"
+r0
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootTextViewCell.xib"
+r0
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.xib"
+r0
+
+CCompileXIB /Users/kjfergus/Desktop/Planner/MainWindow.xib
+r0
+
+CCpResource build/Release-iphonesimulator/Planner.app/Icon.png Icon.png
+r0
+
+CCpResource build/Release-iphonesimulator/Planner.app/ToDo.rtf ToDo.rtf
+r0
+
+CGenerateDSYMFile /Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app.dSYM /Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/Planner
+r0
+
+CLd /Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/Planner normal i386
+r0
+
+CProcessInfoPlistFile /Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app/Info.plist Planner-Info.plist
+r0
+
+CProcessPCH /var/folders/ur/urOR8wHjGDuXkrbrbvdTWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-ayfgwewxcqeqtufvoalqyaveskbu/Planner_Prefix.pch.gch Planner_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/kjfergus/Desktop/Planner/build/Release-iphonesimulator/Planner.app
+r0
+

@@ -1,0 +1,1149 @@
+TPlanner
+v7
+r0
+t294633966.107088
+cCheck dependencies
+cCpResource build/Release-iphoneos/Planner.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Info.plist Planner-Info.plist
+cCompileXIB /Users/kjfergus/Desktop/Planner/MainWindow.xib
+cCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.xib"
+cCopyPNGFile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Icon.png Icon.png
+cCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/Custom Cells/PLCRootTextFieldCell.xib"
+cCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.xib"
+cCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.xib"
+cCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/Custom Cells/PLCDaysSwitchCell.xib"
+cCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootClassInfoCell.xib"
+cCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootTextViewCell.xib"
+cCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentTextViewCell.xib"
+cCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentSliderCell.xib"
+cCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextFieldCell.xib"
+cCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextViewCell.xib"
+cCpResource build/Release-iphoneos/Planner.app/ToDo.rtf ToDo.rtf
+cCompileXIB "/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLPickerView.xib"
+cCompileXIB "/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLDatePicker.xib"
+cProcessPCH /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch.gch Planner_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/main.o /Users/kjfergus/Desktop/Planner/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PlannerAppDelegate.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PlannerAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/RootViewController.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLFileManager.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLFileManager.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLClass.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCDays.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/PLCDays.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCTime.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCAdditionalInfo.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCRoot.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/PLCRoot.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVRoot.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/PLVRoot.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVAssignments.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/All Assignments/PLVAssignments.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVAssignment.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/PLVAssignment.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLAssignment.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVCAssignmentRoot.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/PLVCAssignmentRoot.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLSlideView.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLSlideView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLWindow.o /Users/kjfergus/Desktop/Planner/Source/PLWindow.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/AllAssignmentsRoot.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentsRoot.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/AllAssignmentCell.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentCell.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Planner normal armv6
+cGenerateDSYMFile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app.dSYM /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Planner
+cProcessProductPackaging "/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/Distribution.mobileprovision" /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/embedded.mobileprovision
+cTouch /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner.xcent
+cCodeSign /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk
+c000000004ABDAC790000000000000110
+t1253944441
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
+c000000004A0BA04000000000000000DD
+t1242275904
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+c000000004A0BA04000000000000001E5
+t1242275904
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A121EB900000000003D72A0
+t1242701497
+s4027040
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A121FF90000000000396540
+t1242701817
+s3761472
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAECB0000000000001355
+t1242279627
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004A0BB209000000000000007D
+t1242280457
+s125
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBD000000000000075E
+t1242349245
+s1886
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A1221FD00000000019A6110
+t1242702333
+s26894608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/Availability.h
+c000000004A0BB10100000000000019D8
+t1242280193
+s6616
+
+N/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004ADE5FA10000000000CF0BE0
+t1256087457
+s13568992
+
+N/Users/kjfergus/Desktop/Planner/Icon.png
+c00000000495DBC1C00000000000015C6
+t1230879772
+s5574
+
+N/Users/kjfergus/Desktop/Planner/MainWindow.xib
+c000000004B9AE7970000000000005F4D
+t1268443031
+s24397
+
+N/Users/kjfergus/Desktop/Planner/Planner_Prefix.pch
+c000000004A54BEC40000000000000140
+t1247067844
+s320
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit.h
+c000000004ADCF364000000000000017A
+t1255994212
+s378
+i"Constants.h"
+i"PLClass.h"
+i"PLAssignment.h"
+i"PLFileManager.h"
+i"PLSlideView.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/Constants.h
+c000000004BD2775B00000000000004FA
+t1272084315
+s1274
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.h
+c000000004BB6D135000000000000054C
+t1270272309
+s1356
+i<Foundation/Foundation.h>
+i"PLClass.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.m
+c000000004BD2711A000000000000144D
+t1272082714
+s5197
+i"Constants.h"
+i"PLAssignment.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.h
+c000000004B9AE95400000000000007FC
+t1268443476
+s2044
+i<Foundation/Foundation.h>
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.m
+c000000004BD2711A000000000000167C
+t1272082714
+s5756
+i"Constants.h"
+i"PLClass.h"
+i"PLAssignment.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLFileManager.h
+c000000004A54D0A00000000000000262
+t1247072416
+s610
+i<Foundation/Foundation.h>
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLFileManager.m
+c000000004A555CD2000000000000063E
+t1247108306
+s1598
+i"Constants.h"
+i"PLFileManager.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLSlideView.h
+c000000004B3983AA0000000000000242
+t1262060458
+s578
+i<Foundation/Foundation.h>
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLSlideView.m
+c000000004B998F600000000000000F0F
+t1268354912
+s3855
+i"Constants.h"
+i"PLSlideView.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PlannerAppDelegate.h
+c000000004BB7FB0200000000000001EB
+t1270348546
+s491
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/PlannerAppDelegate.m
+c000000004BDF85BE00000000000009B4
+t1272939966
+s2484
+i"Constants.h"
+i"PlannerAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLDatePicker.xib
+c000000004ADD706C00000000000052D6
+t1256026220
+s21206
+
+N/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLPickerView.xib
+c000000004B9ADDAC0000000000004D64
+t1268440492
+s19812
+
+N/Users/kjfergus/Desktop/Planner/Source/PLWindow.h
+c000000004B9AE79100000000000000D3
+t1268443025
+s211
+i<Foundation/Foundation.h>
+
+N/Users/kjfergus/Desktop/Planner/Source/PLWindow.m
+c000000004B9AE77800000000000001CA
+t1268443000
+s458
+i"PLWindow.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentCell.h
+c000000004BB7F2D1000000000000018C
+t1270346449
+s396
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentCell.m
+c000000004BB7FF5E00000000000002E0
+t1270349662
+s736
+i"AllAssignmentCell.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentsRoot.h
+c000000004BB7F2D10000000000000148
+t1270346449
+s328
+i<UIKit/UIKit.h>
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentsRoot.m
+c000000004BD274380000000000001DFD
+t1272083512
+s7677
+i"Constants.h"
+i"AllAssignmentsRoot.h"
+i"AllAssignmentCell.h"
+i"PLVAssignment.h"
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.h
+c000000004A5F8AFC0000000000000138
+t1247775484
+s312
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.m
+c000000004BD27339000000000000057B
+t1272083257
+s1403
+i"PLCAdditionalInfo.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.xib
+c000000004A5C1578000000000000195D
+t1247548792
+s6493
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/Custom Cells/PLCDaysSwitchCell.xib
+c000000004A5DF6880000000000002710
+t1247671944
+s10000
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/PLCDays.h
+c000000004A5F8AFC0000000000000230
+t1247775484
+s560
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/PLCDays.m
+c000000004BD273390000000000000CBD
+t1272083257
+s3261
+i"Constants.h"
+i"PLCDays.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/Custom Cells/PLCRootTextFieldCell.xib
+c000000004A5A92460000000000002942
+t1247449670
+s10562
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/PLCRoot.h
+c000000004A5F8AFC000000000000024A
+t1247775484
+s586
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/PLCRoot.m
+c000000004BD271D30000000000002789
+t1272082899
+s10121
+i"Constants.h"
+i"PLCRoot.h"
+i"PLCTime.h"
+i"PLCDays.h"
+i"PLCAdditionalInfo.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.h
+c000000004A5F8AFC00000000000001C7
+t1247775484
+s455
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.m
+c000000004BD273390000000000000F09
+t1272083257
+s3849
+i"Constants.h"
+i"PLCTime.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.xib
+c000000004A6003020000000000002FB1
+t1247806210
+s12209
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/All Assignments/PLVAssignments.h
+c000000004B39BB120000000000000177
+t1262074642
+s375
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/All Assignments/PLVAssignments.m
+c000000004BD273390000000000002237
+t1272083257
+s8759
+i"Constants.h"
+i"PLVAssignments.h"
+i"PLVAssignment.h"
+i"PLVCAssignmentRoot.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextFieldCell.xib
+c000000004AD43ECC00000000000056DA
+t1255423692
+s22234
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextViewCell.xib
+c000000004ACFD0B00000000000004DE0
+t1255133360
+s19936
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/PLVCAssignmentRoot.h
+c000000004B3983AA00000000000002F5
+t1262060458
+s757
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/PLVCAssignmentRoot.m
+c000000004BB82CA60000000000002972
+t1270361254
+s10610
+i"PLVCAssignmentRoot.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentSliderCell.xib
+c000000004B3A8CD4000000000000557E
+t1262128340
+s21886
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentTextViewCell.xib
+c000000004BB7F5CD00000000000050F5
+t1270347213
+s20725
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/PLVAssignment.h
+c000000004A6389340000000000000257
+t1248037172
+s599
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/PLVAssignment.m
+c000000004BD2751F0000000000001629
+t1272083743
+s5673
+i"PLVAssignment.h"
+i"PLVCAssignmentRoot.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootClassInfoCell.xib
+c000000004A62B7E400000000000037EA
+t1247983588
+s14314
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootTextViewCell.xib
+c000000004A60B09C000000000000227A
+t1247850652
+s8826
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/PLVRoot.h
+c000000004A62B33C00000000000001FB
+t1247982396
+s507
+i<UIKit/UIKit.h>
+i"PLKit.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/PLVRoot.m
+c000000004B9ADD4300000000000015C4
+t1268440387
+s5572
+i"Constants.h"
+i"PLVRoot.h"
+i"PLVAssignments.h"
+i"PLCRoot.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.h
+c000000004A54BEC400000000000000D0
+t1247067844
+s208
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.m
+c000000004BC4B0D0000000000000114B
+t1271181520
+s4427
+i"RootViewController.h"
+i"AllAssignmentsRoot.h"
+i"PLCRoot.h"
+i"PLVRoot.h"
+
+N/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.xib
+c000000004A54BEC40000000000001F59
+t1247067844
+s8025
+
+N/Users/kjfergus/Desktop/Planner/ToDo.rtf
+c000000004AD43E9600000000000001B5
+t1255423638
+s437
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/AllAssignmentCell.o
+t1272941165
+s20532
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/AllAssignmentsRoot.o
+t1272941165
+s52500
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLAssignment.o
+t1272941165
+s22280
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCAdditionalInfo.o
+t1272941164
+s38400
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCDays.o
+t1272941164
+s40672
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCRoot.o
+t1272941164
+s59268
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCTime.o
+t1272941164
+s42964
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLClass.o
+t1272941164
+s31068
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLFileManager.o
+t1272941164
+s10872
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLSlideView.o
+t1272941165
+s26124
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVAssignment.o
+t1272941165
+s55280
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVAssignments.o
+t1272941165
+s52724
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVCAssignmentRoot.o
+t1272941165
+s76364
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVRoot.o
+t1272941164
+s52236
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLWindow.o
+t1272941165
+s11652
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/Planner.LinkFileList
+c000000004BDF8A68000000000000085E
+t1272941160
+s2142
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PlannerAppDelegate.o
+t1272941164
+s50028
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/RootViewController.o
+t1272941164
+s46732
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/main.o
+t1272941164
+s6624
+
+N/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner.xcent
+t1272941165
+s318
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app
+t1272941166
+s850
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app.dSYM
+t1272941165
+s102
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Icon.png
+t1272941161
+s6109
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Info.plist
+t1272941160
+s659
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/MainWindow.nib
+t1272941161
+s2022
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLCAdditionalInfo.nib
+t1272941161
+s1446
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLCDaysSwitchCell.nib
+t1272941162
+s2516
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLCRootTextFieldCell.nib
+t1272941161
+s3041
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLCTime.nib
+t1272941161
+s2381
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLDatePicker.nib
+t1272941163
+s1997
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLPickerView.nib
+t1272941163
+s1853
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLVAssignmentSliderCell.nib
+t1272941162
+s2348
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLVAssignmentTextViewCell.nib
+t1272941162
+s2290
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLVCAssignmentRootTextFieldCell.nib
+t1272941162
+s3211
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLVCAssignmentRootTextViewCell.nib
+t1272941163
+s2289
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLVRootClassInfoCell.nib
+t1272941162
+s3442
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLVRootTextViewCell.nib
+t1272941162
+s2311
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PkgInfo
+t1272941160
+s8
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Planner
+t1272941165
+s106696
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/ResourceRules.plist
+t1272941160
+s485
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/RootViewController.nib
+t1272941161
+s1432
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/ToDo.rtf
+t1272941162
+s437
+
+N/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/embedded.mobileprovision
+t1272941165
+s7056
+
+N/Users/kjfergus/Desktop/Planner/main.m
+c000000004BD277020000000000000340
+t1272084226
+s832
+i<UIKit/UIKit.h>
+
+N/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/23DF1349-0BB7-4236-A97B-D30BB0BCF67A.mobileprovision
+c000000004BD281B90000000000001B90
+t1272086969
+s7056
+
+N/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/650A3539-2EE7-4091-BA49-52B0450E5B89.mobileprovision
+c000000004BC4AFA40000000000001C0B
+t1271181220
+s7179
+
+N/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/Distribution.mobileprovision
+c000000004B391DDC0000000000001B90
+t1262034396
+s7056
+
+N/var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch.gch
+t1272941163
+s7651456
+
+N/var/folders/ur/urOR8wHjGDuXkrbrbvdTWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-bjhmofprtqubzaenzchiampihunr/Planner_Prefix.pch.gch
+t1272084234
+s8159360
+
+NPlanner-Info.plist
+c000000004BDF8A5F000000000000037A
+t1272941151
+s890
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies294633960#294633960#0(0"0(0#1#0"4300885448#0"0#
+
+CCodeSign /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app
+s294633965.931522
+e294633966.107045
+r1
+xCodeSign
+x/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app
+lSLF07#2@43"CodeSign build/Release-iphoneos/Planner.app294633965#294633966#0(0"0(0#0#66"/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app4300885448#616"    cd /Users/kjfergus/Desktop/Planner    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Distribution: Kevin Ferguson" --resource-rules=/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/ResourceRules.plist --entitlements /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner.xcent /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/AllAssignmentCell.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentCell.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633965.578884
+e294633965.658497
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/AllAssignmentCell.o
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentCell.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentCell.m294633965#294633965#0(0"0(0#0#91"/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentCell.m4300885448#1750"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentCell.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/AllAssignmentCell.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/AllAssignmentsRoot.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentsRoot.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633965.563512
+e294633965.827391
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/AllAssignmentsRoot.o
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentsRoot.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentsRoot.m294633965#294633965#0(0"0(0#0#92"/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentsRoot.m4300885448#1752"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/View Controllers/All Assignments/AllAssignmentsRoot.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/AllAssignmentsRoot.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLAssignment.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633965.091263
+e294633965.294058
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLAssignment.o
+x/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.m: In function '-[PLAssignment saveAssignment]':
+o/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.m:74: warning: passing argument 1 of 'addAssignment:' from distinct Objective-C type
+lSLF07#2@85"Compile /Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.m294633965#294633965#0(286"/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.m: In function '-[PLAssignment saveAssignment]':/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.m:74: warning: passing argument 1 of 'addAssignment:' from distinct Objective-C type1(22@69"Passing argument 1 of 'addAssignment:' from distinct Objective-C type294633965#125#161#0(6@77"/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.m293775514#74#0#74#0#0"0(0#0#77"/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.m4300885448#1731"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLAssignment.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLAssignment.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCAdditionalInfo.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633964.485553
+e294633964.596685
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCAdditionalInfo.o
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.m294633964#294633964#0(0"0(0#0#105"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.m4300885448#1764"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCAdditionalInfo.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCDays.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/PLCDays.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633964.255845
+e294633964.398952
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCDays.o
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/PLCDays.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/PLCDays.m294633964#294633964#0(0"0(0#0#84"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/PLCDays.m4300885448#1733"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/PLCDays.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCDays.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCRoot.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/PLCRoot.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633964.589956
+e294633964.936092
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCRoot.o
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/PLCRoot.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/PLCRoot.m294633964#294633964#0(0"0(0#0#84"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/PLCRoot.m4300885448#1733"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/PLCRoot.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCRoot.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCTime.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633964.399060
+e294633964.589840
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCTime.o
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.m294633964#294633964#0(0"0(0#0#84"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.m4300885448#1733"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLCTime.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLClass.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633964.231298
+e294633964.485444
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLClass.o
+x/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.m: In function '-[PLClass addAssignment:]':
+o/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.m:110: warning: initialization from distinct Objective-C type
+lSLF07#2@80"Compile /Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.m294633964#294633964#0(248"/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.m: In function '-[PLClass addAssignment:]':/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.m:110: warning: initialization from distinct Objective-C type1(22@45"Initialization from distinct Objective-C type294633964#115#133#0(6@72"/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.m293775514#110#0#110#0#0"0(0#0#72"/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.m4300885448#1721"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLClass.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLClass.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLFileManager.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLFileManager.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633964.164869
+e294633964.231177
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLFileManager.o
+x/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLFileManager.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLFileManager.m294633964#294633964#0(0"0(0#0#78"/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLFileManager.m4300885448#1733"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLFileManager.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLFileManager.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLSlideView.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLSlideView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633965.294161
+e294633965.509197
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLSlideView.o
+x/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLSlideView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLSlideView.m294633965#294633965#0(0"0(0#0#76"/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLSlideView.m4300885448#1729"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/Application Files/PLKit/PLSlideView.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLSlideView.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVAssignment.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/PLVAssignment.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633964.936195
+e294633965.152282
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVAssignment.o
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/PLVAssignment.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@122"Compile /Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/PLVAssignment.m294633964#294633965#0(0"0(0#0#114"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/PLVAssignment.m4300885448#1769"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/PLVAssignment.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVAssignment.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVAssignments.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/All Assignments/PLVAssignments.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633964.794696
+e294633965.091141
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVAssignments.o
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/All Assignments/PLVAssignments.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/All Assignments/PLVAssignments.m294633964#294633965#0(0"0(0#0#113"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/All Assignments/PLVAssignments.m4300885448#1769"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/All Assignments/PLVAssignments.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVAssignments.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVCAssignmentRoot.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/PLVCAssignmentRoot.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633965.152405
+e294633965.578775
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVCAssignmentRoot.o
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/PLVCAssignmentRoot.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@133"Compile /Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/PLVCAssignmentRoot.m294633965#294633965#0(0"0(0#0#125"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/PLVCAssignmentRoot.m4300885448#1785"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/PLVCAssignmentRoot.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVCAssignmentRoot.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVRoot.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/PLVRoot.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633964.596794
+e294633964.794579
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVRoot.o
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/PLVRoot.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/PLVRoot.m294633964#294633964#0(0"0(0#0#83"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/PLVRoot.m4300885448#1732"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/PLVRoot.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLVRoot.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLWindow.o /Users/kjfergus/Desktop/Planner/Source/PLWindow.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633965.509368
+e294633965.563405
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLWindow.o
+x/Users/kjfergus/Desktop/Planner/Source/PLWindow.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/kjfergus/Desktop/Planner/Source/PLWindow.m294633965#294633965#0(0"0(0#0#49"/Users/kjfergus/Desktop/Planner/Source/PLWindow.m4300885448#1697"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c /Users/kjfergus/Desktop/Planner/Source/PLWindow.m -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PLWindow.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PlannerAppDelegate.o "/Users/kjfergus/Desktop/Planner/Source/Application Files/PlannerAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633963.997574
+e294633964.164662
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PlannerAppDelegate.o
+x/Users/kjfergus/Desktop/Planner/Source/Application Files/PlannerAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/kjfergus/Desktop/Planner/Source/Application Files/PlannerAppDelegate.m294633963#294633964#0(0"0(0#0#77"/Users/kjfergus/Desktop/Planner/Source/Application Files/PlannerAppDelegate.m4300885448#1737"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/Application Files/PlannerAppDelegate.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/PlannerAppDelegate.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/RootViewController.o "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633964.067646
+e294633964.255744
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/RootViewController.o
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.m294633964#294633964#0(0"0(0#0#86"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.m4300885448#1746"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.m" -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/main.o /Users/kjfergus/Desktop/Planner/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633963.996555
+e294633964.067496
+r1
+xCompileC
+xbuild/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/main.o
+x/Users/kjfergus/Desktop/Planner/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/kjfergus/Desktop/Planner/main.m294633963#294633964#0(0"0(0#0#38"/Users/kjfergus/Desktop/Planner/main.m4300885448#1682"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -include /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch -c /Users/kjfergus/Desktop/Planner/main.m -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLDatePicker.xib"
+s294633963.127884
+e294633963.452132
+r1
+xCompileXIB
+x/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLDatePicker.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@66"CompileXIB "Source/Application Files/Slide Views/PLDatePicker.xib"294633963#294633963#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#85"/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLDatePicker.xib4300885448#490"    cd /Users/kjfergus/Desktop/Planner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLDatePicker.nib "/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLDatePicker.xib"0#
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLPickerView.xib"
+s294633962.937365
+e294633963.270677
+r1
+xCompileXIB
+x/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLPickerView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@66"CompileXIB "Source/Application Files/Slide Views/PLPickerView.xib"294633962#294633963#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#85"/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLPickerView.xib4300885448#490"    cd /Users/kjfergus/Desktop/Planner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLPickerView.nib "/Users/kjfergus/Desktop/Planner/Source/Application Files/Slide Views/PLPickerView.xib"0#
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.xib"
+s294633961.536589
+e294633961.835020
+r1
+xCompileXIB
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@88"CompileXIB "Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.xib"294633961#294633961#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#107"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.xib4300885448#517"    cd /Users/kjfergus/Desktop/Planner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLCAdditionalInfo.nib "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Additional Info/PLCAdditionalInfo.xib"0#
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/Custom Cells/PLCDaysSwitchCell.xib"
+s294633961.719753
+e294633962.170586
+r1
+xCompileXIB
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/Custom Cells/PLCDaysSwitchCell.xib
+lSLF07#2@90"CompileXIB "Source/View Controllers/Class Creator/Days/Custom Cells/PLCDaysSwitchCell.xib"294633961#294633962#0(0"0(0#0#109"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/Custom Cells/PLCDaysSwitchCell.xib4300885448#519"    cd /Users/kjfergus/Desktop/Planner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLCDaysSwitchCell.nib "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Days/Custom Cells/PLCDaysSwitchCell.xib"0#
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/Custom Cells/PLCRootTextFieldCell.xib"
+s294633961.200236
+e294633961.536488
+r1
+xCompileXIB
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/Custom Cells/PLCRootTextFieldCell.xib
+lSLF07#2@93"CompileXIB "Source/View Controllers/Class Creator/Root/Custom Cells/PLCRootTextFieldCell.xib"294633961#294633961#0(0"0(0#0#112"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/Custom Cells/PLCRootTextFieldCell.xib4300885448#525"    cd /Users/kjfergus/Desktop/Planner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLCRootTextFieldCell.nib "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Root/Custom Cells/PLCRootTextFieldCell.xib"0#
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.xib"
+s294633961.353823
+e294633961.719641
+r1
+xCompileXIB
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@67"CompileXIB "Source/View Controllers/Class Creator/Time/PLCTime.xib"294633961#294633961#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#86"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.xib4300885448#486"    cd /Users/kjfergus/Desktop/Planner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLCTime.nib "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Creator/Time/PLCTime.xib"0#
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextFieldCell.xib"
+s294633962.612420
+e294633962.936564
+r1
+xCompileXIB
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextFieldCell.xib
+lSLF07#2@134"CompileXIB "Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextFieldCell.xib"294633962#294633962#0(0"0(0#0#153"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextFieldCell.xib4300885448#577"    cd /Users/kjfergus/Desktop/Planner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLVCAssignmentRootTextFieldCell.nib "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextFieldCell.xib"0#
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextViewCell.xib"
+s294633962.794669
+e294633963.127773
+r1
+xCompileXIB
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextViewCell.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@133"CompileXIB "Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextViewCell.xib"294633962#294633963#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#152"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextViewCell.xib4300885448#575"    cd /Users/kjfergus/Desktop/Planner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLVCAssignmentRootTextViewCell.nib "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Assignment Creator/Root/Custom Cells/PLVCAssignmentRootTextViewCell.xib"0#
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentSliderCell.xib"
+s294633962.475642
+e294633962.794552
+r1
+xCompileXIB
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentSliderCell.xib
+lSLF07#2@120"CompileXIB "Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentSliderCell.xib"294633962#294633962#0(0"0(0#0#139"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentSliderCell.xib4300885448#555"    cd /Users/kjfergus/Desktop/Planner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLVAssignmentSliderCell.nib "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentSliderCell.xib"0#
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentTextViewCell.xib"
+s294633962.282455
+e294633962.612212
+r1
+xCompileXIB
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentTextViewCell.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@122"CompileXIB "Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentTextViewCell.xib"294633962#294633962#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#141"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentTextViewCell.xib4300885448#559"    cd /Users/kjfergus/Desktop/Planner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLVAssignmentTextViewCell.nib "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Assignments/Single Assignment/Custom Cells/PLVAssignmentTextViewCell.xib"0#
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootClassInfoCell.xib"
+s294633961.835124
+e294633962.282265
+r1
+xCompileXIB
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootClassInfoCell.xib
+lSLF07#2@92"CompileXIB "Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootClassInfoCell.xib"294633961#294633962#0(0"0(0#0#111"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootClassInfoCell.xib4300885448#524"    cd /Users/kjfergus/Desktop/Planner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLVRootClassInfoCell.nib "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootClassInfoCell.xib"0#
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootTextViewCell.xib"
+s294633962.170695
+e294633962.475542
+r1
+xCompileXIB
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootTextViewCell.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@91"CompileXIB "Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootTextViewCell.xib"294633962#294633962#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#110"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootTextViewCell.xib4300885448#522"    cd /Users/kjfergus/Desktop/Planner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PLVRootTextViewCell.nib "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Class Viewer/Root/Custom Cells/PLVRootTextViewCell.xib"0#
+
+CCompileXIB "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.xib"
+s294633960.711703
+e294633961.100016
+r1
+xCompileXIB
+x/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.xib
+lSLF07#2@69"CompileXIB "Source/View Controllers/Root View/RootViewController.xib"294633960#294633961#0(0"0(0#0#88"/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.xib4300885448#499"    cd /Users/kjfergus/Desktop/Planner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/RootViewController.nib "/Users/kjfergus/Desktop/Planner/Source/View Controllers/Root View/RootViewController.xib"0#
+
+CCompileXIB /Users/kjfergus/Desktop/Planner/MainWindow.xib
+s294633960.710975
+e294633961.200134
+r1
+xCompileXIB
+x/Users/kjfergus/Desktop/Planner/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib294633960#294633961#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#46"/Users/kjfergus/Desktop/Planner/MainWindow.xib4300885448#447"    cd /Users/kjfergus/Desktop/Planner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/MainWindow.nib /Users/kjfergus/Desktop/Planner/MainWindow.xib0#
+
+CCopyPNGFile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Icon.png Icon.png
+s294633961.100121
+e294633961.353723
+r1
+xCopyPNGFile
+x/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Icon.png
+xIcon.png
+lSLF07#2@64"CopyPNGFile build/Release-iphoneos/Planner.app/Icon.png Icon.png294633961#294633961#0(0"0(0#0#40"/Users/kjfergus/Desktop/Planner/Icon.png4300885448#537"    cd /Users/kjfergus/Desktop/Planner    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/kjfergus/Desktop/Planner/Icon.png /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Icon.png0#
+
+CCpResource build/Release-iphoneos/Planner.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+s294633960.703171
+e294633960.710883
+r1
+xCpResource
+xbuild/Release-iphoneos/Planner.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist294633960#294633960#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist4300885448#489"    cd /Users/kjfergus/Desktop/Planner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app0#
+
+CCpResource build/Release-iphoneos/Planner.app/ToDo.rtf ToDo.rtf
+s294633962.936666
+e294633962.941375
+r1
+xCpResource
+xbuild/Release-iphoneos/Planner.app/ToDo.rtf
+xToDo.rtf
+lSLF07#2@13"Copy ToDo.rtf294633962#294633962#0(0"0(0#0#40"/Users/kjfergus/Desktop/Planner/ToDo.rtf4300885448#440"    cd /Users/kjfergus/Desktop/Planner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/kjfergus/Desktop/Planner/ToDo.rtf /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app0#
+
+CGenerateDSYMFile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app.dSYM /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Planner
+s294633965.866924
+e294633965.909052
+r1
+xGenerateDSYMFile
+x/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app.dSYM
+x/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Planner
+lSLF07#2@99"GenerateDSYMFile build/Release-iphoneos/Planner.app.dSYM build/Release-iphoneos/Planner.app/Planner294633965#294633965#0(0"0(0#0#74"/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Planner4300885448#345"    cd /Users/kjfergus/Desktop/Planner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Planner -o /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app.dSYM0#
+
+CLd /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Planner normal armv6
+s294633965.827491
+e294633965.866819
+r1
+xLd
+x/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Planner
+xnormal
+xarmv6
+lSLF07#2@79"Link /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Planner294633965#294633965#0(0"0(0#0#0"4300885448#884"    cd /Users/kjfergus/Desktop/Planner    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -L/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -filelist /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Objects-normal/armv6/Planner.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Planner0#
+
+CProcessInfoPlistFile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Info.plist Planner-Info.plist
+s294633960.704129
+e294633960.707232
+r1
+xProcessInfoPlistFile
+x/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Info.plist
+xPlanner-Info.plist
+lSLF07#2@26"Process Planner-Info.plist294633960#294633960#0(0"0(0#0#50"/Users/kjfergus/Desktop/Planner/Planner-Info.plist4300885448#540"    cd /Users/kjfergus/Desktop/Planner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Planner-Info.plist -genpkginfo /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/ResourceRules.plist -o /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/Info.plist0#
+
+CProcessPCH /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch.gch Planner_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s294633963.452270
+e294633963.996364
+r1
+xProcessPCH
+x/var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch.gch
+xPlanner_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Planner_Prefix.pch294633963#294633963#0(0"0(0#0#50"/Users/kjfergus/Desktop/Planner/Planner_Prefix.pch4300885448#1585"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -c /Users/kjfergus/Desktop/Planner/Planner_Prefix.pch -o /var/folders/kY/kYG92yE0H3yjg7axNrcRzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-gysaltgvbqvdbtacfqrvdosyhxdk/Planner_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ur/urOR8wHjGDuXkrbrbvdTWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-bjhmofprtqubzaenzchiampihunr/Planner_Prefix.pch.gch Planner_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293777032.548757
+e293777035.177768
+r1
+xProcessPCH
+x/var/folders/ur/urOR8wHjGDuXkrbrbvdTWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-bjhmofprtqubzaenzchiampihunr/Planner_Prefix.pch.gch
+xPlanner_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Planner_Prefix.pch293777032#293777035#0(0"0(0#0#50"/Users/kjfergus/Desktop/Planner/Planner_Prefix.pch4300911832#1585"    cd /Users/kjfergus/Desktop/Planner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-generated-files.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-own-target-headers.hmap -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-all-target-headers.hmap -iquote /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner-project-headers.hmap -F/Users/kjfergus/Desktop/Planner/build/Release-iphoneos -I/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/include -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources/armv6 -I/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/DerivedSources -c /Users/kjfergus/Desktop/Planner/Planner_Prefix.pch -o /var/folders/ur/urOR8wHjGDuXkrbrbvdTWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Planner_Prefix-bjhmofprtqubzaenzchiampihunr/Planner_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/23DF1349-0BB7-4236-A97B-D30BB0BCF67A.mobileprovision" /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/embedded.mobileprovision
+s294632544.726125
+e294632544.727799
+r1
+xProcessProductPackaging
+x/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/23DF1349-0BB7-4236-A97B-D30BB0BCF67A.mobileprovision
+x/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/23DF1349-0BB7-4236-A97B-D30BB0BCF67A.mobileprovision" build/Release-iphoneos/Planner.app/embedded.mobileprovision294632544#294632544#0(0"0(0#0#91"/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/embedded.mobileprovision4300911832#414"    cd /Users/kjfergus/Desktop/Planner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/23DF1349-0BB7-4236-A97B-D30BB0BCF67A.mobileprovision" -o /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/650A3539-2EE7-4091-BA49-52B0450E5B89.mobileprovision" /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/embedded.mobileprovision
+s293777036.969171
+e293777037.006424
+r1
+xProcessProductPackaging
+x/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/650A3539-2EE7-4091-BA49-52B0450E5B89.mobileprovision
+x/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/650A3539-2EE7-4091-BA49-52B0450E5B89.mobileprovision" build/Release-iphoneos/Planner.app/embedded.mobileprovision293777036#293777037#0(0"0(0#0#91"/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/embedded.mobileprovision4300911832#414"    cd /Users/kjfergus/Desktop/Planner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/650A3539-2EE7-4091-BA49-52B0450E5B89.mobileprovision" -o /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/Distribution.mobileprovision" /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/embedded.mobileprovision
+s294633965.909168
+e294633965.910261
+r1
+xProcessProductPackaging
+x/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/Distribution.mobileprovision
+x/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/embedded.mobileprovision
+lSLF07#2@173"ProcessProductPackaging "/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/Distribution.mobileprovision" build/Release-iphoneos/Planner.app/embedded.mobileprovision294633965#294633965#0(0"0(0#0#91"/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/embedded.mobileprovision4300885448#390"    cd /Users/kjfergus/Desktop/Planner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/kjfergus/Library/MobileDevice/Provisioning Profiles/Distribution.mobileprovision" -o /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner.xcent
+s294633965.913757
+e294633965.931452
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
+x/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner.xcent
+lSLF07#2@177"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist build/Planner.build/Release-iphoneos/Planner.build/Planner.xcent294633965#294633965#0(0"0(0#0#96"/Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner.xcent4300885448#420"    cd /Users/kjfergus/Desktop/Planner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/kjfergus/Desktop/Planner/build/Planner.build/Release-iphoneos/Planner.build/Planner.xcent0#
+
+CTouch /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app
+s294633965.910320
+e294633965.913639
+r1
+xTouch
+x/Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app
+lSLF07#2@72"Touch /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app294633965#294633965#0(0"0(0#0#0"4300885448#252"    cd /Users/kjfergus/Desktop/Planner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kjfergus/Desktop/Planner/build/Release-iphoneos/Planner.app0#
+
